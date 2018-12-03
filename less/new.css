@@ -1,0 +1,125 @@
+body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #F7F4F1;
+}
+img {
+  width: 100%;
+}
+.body .first {
+  height: 60px;
+  margin-top: 20px;
+  background: #fff;
+  line-height: 60px;
+  padding: 0 15px;
+  border-bottom: 1px solid #ccc;
+}
+.body .second {
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.body .second .left {
+  width: 260px;
+  height: 60px;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+.body .second .left span:first-child {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+.body .second .left span:nth-child(2) {
+  font-size: 12px;
+  color: #ccc;
+  position: relative;
+  left: -53px;
+  top: 28px;
+}
+.body .second .left span:last-child {
+  position: relative;
+  left: 100px;
+  top: 20px;
+  color: #ccc;
+}
+.body .second .right {
+  float: right;
+}
+.body .second .right span:first-child {
+  position: relative;
+  left: -88px;
+  top: 20px;
+}
+.body .second .right span:last-child {
+  position: relative;
+  top: 18px;
+  left: -10px;
+  color: #ccc;
+}
+.body .third {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ccc;
+  padding: 0 15px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.body .third span:last-child {
+  font-size: 13px;
+  color: #ccc;
+}
+.body .forth {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  padding: 0 15px;
+}
+.body .forth .box span:first-child {
+  color: #000;
+  position: relative;
+  top: -4px;
+}
+.body .forth .box span:last-child {
+  font-size: 12px;
+  color: #ccc;
+  position: relative;
+  left: -70px;
+  top: 12px;
+}
+.body .forth span {
+  font-size: 16px;
+  color: #ccc;
+}
+.body .fifth {
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+}
+.body .fifth span {
+  position: relative;
+  left: 8px;
+}
+.body .fifth .bigbox {
+  width: 65px;
+  height: 28px;
+  background-color: #4B4B4B;
+  margin: auto 10px;
+  border-radius: 5px;
+}
+.body .fifth .bigbox .smallbox {
+  width: 25px;
+  height: 22px;
+  background-color: #3BACA7;
+  position: relative;
+  left: 36px;
+  top: 3px;
+  border-radius: 4px;
+}

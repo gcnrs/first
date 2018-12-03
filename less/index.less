@@ -1,0 +1,204 @@
+// 通过@import可以实现less的合并
+@import './style.less';
+// 根据不同的手机屏幕，设置html不同的字号
+@media (width:320px) {
+    html {
+        font-size: 16px;
+    }
+}
+@media (width:360px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media (width:375px) {
+    html {
+        font-size: 18.75px;
+    }
+}
+@media (width:414px) {
+    html {
+        font-size: 20.7px;
+    }
+}
+
+body,h3,p,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background-color: #f7f4f1;
+}
+img {
+    width: 100%;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.items {
+    padding: 0 24/32rem;
+
+    // 标题
+    .title {
+        margin: 28/32rem 0 30/32rem;
+        display: flex;
+        justify-content: space-between;
+        
+        h3 {
+            font-size: 28/32rem;
+            font-weight: normal;
+        }
+        span {
+            font-size: 28/32rem;
+            color: #888;
+        }
+    }
+    .item:not(.add) {
+        border-radius: 16/32rem;
+        overflow: hidden;
+    }
+
+    .all {
+        margin-bottom: 30/32rem;
+        .body {
+            height: 232/32rem;
+            background-color: #55bc75;
+            a {
+                position: relative;
+                left: 15px;
+                top: 20px;                
+            }
+            span {
+                display: block;       
+            }
+            span:first-child {
+                font-size: 47/32rem;
+                color: #fff;
+                margin-bottom: 12px;
+                position: relative;
+                top: 5px;
+                left: 15px;    
+            }
+            span:nth-child(2) {
+                font-size: 16px;
+                color: #BCF2CD;
+                position: relative;
+                left: 15px;
+                margin-bottom: 10px;
+            }
+           span:last-child {
+               font-size: 16px;
+               color: #fff;
+               width: 260px;
+               position: relative;
+               left: 38px;
+               top: -3px;
+           }
+        }
+        .extra {
+            height: 80/32rem;
+            background-color: #fff;
+            display: flex;
+            padding: 16/32rem 0;
+            box-sizing: border-box;
+            a {
+                color: #55bc75;
+                flex: 1;
+                text-align: center;
+                line-height: 48/32rem;
+                border-right: 1px solid #e8e2d9;
+                span {
+                    color: #888;
+                    font-size: 26/32rem;
+                }
+            }
+        }
+    }
+
+    .coupon {
+        margin-bottom: 30/32rem;
+        .body {
+            height: 232/32rem;
+            background-color: #a974bc;
+            a {
+                position: relative;
+                left: 15px;
+                top: 22px;
+            }
+            span {
+                position: relative;
+                left: 15px;
+            }
+            span:first-child {
+                color: #fff;
+                font-size: 32px;
+            }
+            span:nth-child(2) {
+                color: #ccc;
+                font-size: 20px;
+            }
+            p:nth-child(3) {
+                font-size: 18px;
+                color: #fff;
+                position: relative;
+                left: 15px;
+                top: 20px;
+            }
+            p:last-child {
+                font-size: 18px;
+                color: #fff;
+                position: relative;
+                left: 40px;
+            }
+        }
+        .extra {
+            height: 80/32rem;
+            background-color: #fff;
+            display: flex;
+            padding: 16/32rem 0;
+            box-sizing: border-box;
+            a {
+                color: #a974bc;
+                flex: 1;
+                text-align: center;
+                line-height: 48/32rem;
+                border-right: 1px solid #e8e2d9;
+                span {
+                    color: #888;
+                    font-size: 26/32rem;
+                }
+            }
+        }       
+    }
+    // 选项
+    .add {
+        height: 224/32rem;
+        border: 3/32rem dashed #dedede;
+        background-color: #fff;
+        text-align: center;
+             
+        a {
+            display: block;
+            padding-top: 38/32rem;
+            font-size: 104/32rem;
+            color: #aeaeae;
+        }
+        span {
+            display: block;
+            font-size: 26/32rem;
+            margin-top: 14/32rem;
+        }
+    }    
+}
+// 友情提示
+.tips {
+    margin-top: 116/32rem;
+    // padding: 0 24/32rem;
+    font-size: 24/32rem;
+    color: #999;
+    p {
+        line-height: 2;
+    }
+}

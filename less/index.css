@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?xgkav');
+  src: url('fonts/icomoon.eot?xgkav#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?xgkav') format('truetype'), url('fonts/icomoon.woff?xgkav') format('woff'), url('fonts/icomoon.svg?xgkav#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-add:before {
+  content: "\e900";
+}
+.icon-cancle:before {
+  content: "\e901";
+}
+.icon-delete:before {
+  content: "\e902";
+}
+.icon-edit:before {
+  content: "\e903";
+}
+.icon-preview:before {
+  content: "\e904";
+}
+.icon-share:before {
+  content: "\e905";
+}
+.icon-time:before {
+  content: "\e906";
+}
+@media (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+body,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background-color: #f7f4f1;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.items {
+  padding: 0 0.75rem;
+}
+.items .title {
+  margin: 0.875rem 0 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+}
+.items .title h3 {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+.items .title span {
+  font-size: 0.875rem;
+  color: #888;
+}
+.items .item:not(.add) {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.items .all {
+  margin-bottom: 0.9375rem;
+}
+.items .all .body {
+  height: 7.25rem;
+  background-color: #55bc75;
+}
+.items .all .body a {
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+.items .all .body span {
+  display: block;
+}
+.items .all .body span:first-child {
+  font-size: 1.46875rem;
+  color: #fff;
+  margin-bottom: 12px;
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+.items .all .body span:nth-child(2) {
+  font-size: 16px;
+  color: #BCF2CD;
+  position: relative;
+  left: 15px;
+  margin-bottom: 10px;
+}
+.items .all .body span:last-child {
+  font-size: 16px;
+  color: #fff;
+  width: 260px;
+  position: relative;
+  left: 38px;
+  top: -3px;
+}
+.items .all .extra {
+  height: 2.5rem;
+  background-color: #fff;
+  display: flex;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+.items .all .extra a {
+  color: #55bc75;
+  flex: 1;
+  text-align: center;
+  line-height: 1.5rem;
+  border-right: 1px solid #e8e2d9;
+}
+.items .all .extra a span {
+  color: #888;
+  font-size: 0.8125rem;
+}
+.items .coupon {
+  margin-bottom: 0.9375rem;
+}
+.items .coupon .body {
+  height: 7.25rem;
+  background-color: #a974bc;
+}
+.items .coupon .body a {
+  position: relative;
+  left: 15px;
+  top: 22px;
+}
+.items .coupon .body span {
+  position: relative;
+  left: 15px;
+}
+.items .coupon .body span:first-child {
+  color: #fff;
+  font-size: 32px;
+}
+.items .coupon .body span:nth-child(2) {
+  color: #ccc;
+  font-size: 20px;
+}
+.items .coupon .body p:nth-child(3) {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+.items .coupon .body p:last-child {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  left: 40px;
+}
+.items .coupon .extra {
+  height: 2.5rem;
+  background-color: #fff;
+  display: flex;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+.items .coupon .extra a {
+  color: #a974bc;
+  flex: 1;
+  text-align: center;
+  line-height: 1.5rem;
+  border-right: 1px solid #e8e2d9;
+}
+.items .coupon .extra a span {
+  color: #888;
+  font-size: 0.8125rem;
+}
+.items .add {
+  height: 7rem;
+  border: 0.09375rem dashed #dedede;
+  background-color: #fff;
+  text-align: center;
+}
+.items .add a {
+  display: block;
+  padding-top: 1.1875rem;
+  font-size: 3.25rem;
+  color: #aeaeae;
+}
+.items .add span {
+  display: block;
+  font-size: 0.8125rem;
+  margin-top: 0.4375rem;
+}
+.tips {
+  margin-top: 3.625rem;
+  font-size: 0.75rem;
+  color: #999;
+}
+.tips p {
+  line-height: 2;
+}
